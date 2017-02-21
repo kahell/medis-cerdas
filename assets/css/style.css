@@ -1,0 +1,226 @@
+/*
+* Theme name : Slicing Medis;
+* Theme version : 1.0;
+* Theme author : Helfi Pangestu;
+* Release date : 13 Feb 2017;
+* Url : http://www.helfipangestu12.blogspot.com;
+*/
+
+.small-navbar{
+    background: #ffffff;
+	z-index: -1px;
+	box-shadow: 1px 2px 2px rgba(215, 215, 215, 1);
+}
+
+.small-navbar .navbar ul.nav.navbar-nav.box{
+    display: inline;
+    margin-top: 15px;
+}
+
+.small-navbar .navbar img.profile{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -15px;
+    display: inline-table;
+}
+
+.small-navbar .navbar li a {
+    text-decoration: none;
+	background: none;
+	color: #262626;
+}
+
+.small-navbar .navbar li a:hover {
+	background-color: #354599;
+	color: white;
+}
+
+.small-navbar .navbar li a:focus {
+	background-color: #354599;
+	color: white;
+}
+
+.small-navbar a:focus.navbar-brand {
+	          display: inline-block;
+              background-color: white;
+}
+
+.medis1{
+    background-color: #f6f6f6;
+    height: 209.376px;
+    margin-top: -18px;
+}
+
+.medis1 .dashboard h5{
+    color: #868686;
+    margin-top: 85px;
+    margin-left: 150px;
+    margin-bottom: -19px;
+}
+
+.medis1 .dashboard h3{
+    margin-left: 150px;
+}
+
+.medis1 .navbar2{
+    margin-top: 71px;
+    background-color: #202020;
+    height: auto;
+    list-style: none;
+    height: 44px;
+}
+
+.medis1 .navbar2 ul{
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+.medis1 .navbar2 li{
+    margin-left: -9.4px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 5.5px;
+    list-style: none;
+    display: inline-table
+}
+
+.medis1 .navbar2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.medis1 .navbar2 li:hover{
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px solid #354599;
+}
+
+.medis1 .navbar2 li:focus{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #354599;
+}
+
+.medis1 .content1{
+    margin-top: 40px;
+}
+
+.medis1 .content1 .profile-detail h4{
+    margin-top: -120px;
+    margin-left: 150px;
+}
+.medis1 .content1 .profile-detail h5{ 
+    color: #999999;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.medis1 .content1 .profile ul.location{
+    color: #999999;
+    padding-left: 45px;
+    margin-top: 40px;
+    text-align: left;
+    display: inline-table;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.medis1 .content1 .slideKiri1{
+
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1 ul{
+    
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1 ul li{
+    color: #cacbcc;
+    list-style: none;
+    margin-left: -30px;
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1 ul li{
+    margin-bottom: -8px;
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1 ul li.end .description{
+    border-left: 2px solid #cacbcc;
+    margin-left: 4.3px;
+}
+.medis1 .content1 .slideKiri1 .contentKiri1 ul li .description p{
+    margin-top: -10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: black;
+    
+}
+
+.medis1 .content1 .slideKiri1 .contentKiri1 ul li .description a{
+    text-decoration: none;
+    
+}
+
+
+.medis1 .content1 .slideKanan1{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    box-shadow: 1px 1px 1px rgba(215, 215, 215, 5);
+    border: .1px solid rgba(215, 215, 215, 1);
+    background-color: #fbfbfb;
+    margin-top: 20px;
+}
+
+.medis1 .content1 .slideKanan1.awal{
+    padding-top: 40px;
+}
+
+.medis1 .content1 .slideKanan1 a{   
+    text-align: center;
+    background-color: #354599;
+    color: white;
+    width: 280px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.medis1 .content1 .slideKanan1 ul{
+  margin-left: -15px;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+}
+
+.medis1 .content1 .slideKanan1 li{
+  color: #354599;
+  list-style-type: square;
+  padding-bottom: 5px;
+}
+
+.medis1 .content1 .slideKanan1 li ol{
+    padding-bottom: 10px;
+}
+
+.medis1 .content1 .slideKanan1 li ol li{
+    color: #505050; 
+    list-style: none;
+    margin-left: -40px;
+    padding: 0px;
+}
+
+.medis1 .content1 .slideKanan1 li p{
+    color: #505050;
+    margin: -1px;
+}
+

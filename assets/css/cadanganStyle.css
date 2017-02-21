@@ -1,0 +1,83 @@
+/*
+* Theme name : Slicing Medis;
+* Theme version : 1.0;
+* Theme author : Helfi Pangestu;
+* Release date : 13 Feb 2017;
+* Url : http://www.helfipangestu12.blogspot.com;
+*/
+
+.small-navbar{
+    padding: 10px;
+	background: #ffffff;
+	z-index: -1px;
+	box-shadow: 1px 2px 4px rgba(215, 215, 215, .5);
+}
+
+.small-navbar .sn-left a {
+	background: none;
+	color: #262626;
+    margin: -10px;
+}
+
+.small-navbar .sn-left li a:focus.b{
+	display: block;
+	background-color: white;
+}
+
+.small-navbar .sn-left a:hover {
+	background: none;
+	color: #262626;
+}
+
+.small-navbar .sn-left a:focus {
+	background-color: #354599;
+	color: white;
+}
+
+.small-navbar .sn-left li.box {
+    height: 40px;
+	border-left: 2px solid #95989a;
+    border-right: 2px solid #95989a;
+}
+
+.small-navbar .sn-left .box .container-2{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -10px;
+}
+
+.small-navbar .sn-left .box .container-2 input#search{
+  width: 50px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.small-navbar .sn-left .box .container-2 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.small-navbar .sn-left .box  .container-2 input#search:focus, .container-2 input#search:active{
+  outline:none;
+  width: 300px;
+}
+ 
+.small-navbar .sn-left .box  .container-2:hover input#search{
+width: 300px;
+}
+ 
+.small-navbar .sn-left .box  .container-2:hover .icon{
+  color: #93a2ad;
+}
