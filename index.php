@@ -21,29 +21,64 @@
       
     <!-- HEADER -->
       <div class="small-navbar">
-          <nav class="navbar">
-              <div class="container">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
                 <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
                   <a class="navbar-brand" href="#"><img src="assets/images/logoMedisCerdas.png"></a>
                 </div>
-                <ul class="nav navbar-nav box">
-                  <li>
-                        <i class="fa fa-search"></i>
-                        <input type="search"  placeholder="Cari Pekerjaan atay Perusahaan">
-                  </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">BERANDA</a></li>
-                  <li><a href="#">PEKERJAAN</a></li>
-                  <li><a href="#">PASANG LOWONGAN</a></li>
-                  <li>
-                    <a href="#">RUMAH SAKIT ATMA JAYA
-                        <img class="profile" src="assets/images/profileAJ.png"> 
-                    </a>
-                  </li>
-                </ul>
-              </div>
-        </nav>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                      <i class="fa fa-search"></i>
+                      <input type="text" class="form-control" placeholder="Cari Pekerjaan atau Perusahaan">
+                    </div>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">BERANDA</a></li>
+                    <li><a href="#">PEKERJAAN</a></li>
+                    <li><a href="#">PASANG LOWONGAN</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle profile">RUMAH SAKIT ATMA JAYA 
+                        <img style="height: 35px;" class="responsive-img profile" src="assets/images/profileAJ.png"> 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                            <a href="#"><i class="fa fa-briefcase"></i> LOWONGAN PEKERJAAN</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-user"></i> PELAMAR</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-search"></i> CARI PEKERJA</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-star"></i> CV MENARIK</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o"></i> CV TERBELI</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope-o"></i> PESAN</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-money"></i> BILL</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-building"></i> PENGATURAN PROFILE</a>
+                            </li>
+                          </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
     </div>
       
     <div class="medis1">
@@ -53,38 +88,38 @@
                 <h3>Halo Rumah Sakit Atma Jaya</h3>
             </div>
         </div>
-        <div class="navbar2">
+        <div class="navbar2 hidden-xs">
                 <ul>
-                    <li><i class="fa fa-briefcase"></i>
-                        <a href="#"> LOWONGAN PEKERJAAN</a>
+                    <li>
+                        <a href="#"><i class="fa fa-briefcase"></i> LOWONGAN PEKERJAAN</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-user"></i>
-                        <a href="#"> PELAMAR</a>
+                    <li>
+                        <a href="#"><i class="fa fa-user"></i> PELAMAR</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-search"></i>
-                        <a href="#">CARI PEKERJA</a>
+                    <li>
+                        <a href="#"><i class="fa fa-search"></i> CARI PEKERJA</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-star"></i>
-                        <a href="#"> CV MENARIK</a>
+                    <li>
+                        <a href="#"><i class="fa fa-star"></i> CV MENARIK</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-file-text-o"></i>
-                        <a href="#"> CV TERBELI</a>
+                    <li>
+                        <a href="#"><i class="fa fa-file-text-o"></i> CV TERBELI</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-envelope-o"></i>
-                        <a href="#"> PESAN</a>
+                    <li>
+                        <a href="#"><i class="fa fa-envelope-o"></i> PESAN</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-money"></i>
-                        <a href="#"> BILL</a>
+                    <li>
+                        <a href="#"><i class="fa fa-money"></i> BILL</a>
                     </li>
                     &nbsp;
-                    <li><i class="fa fa-building"></i>
-                        <a href="#"> PENGATURAN PROFILE</a>
+                    <li>
+                        <a href="#"><i class="fa fa-building"></i> PENGATURAN PROFILE</a>
                     </li>
                 </ul>
         </div>
@@ -122,7 +157,7 @@
                             eterger posuere erat a ante venenatis dapibus posuere velit aliquet. aenean eu leo quam.</p>
                             <div class="contentKiri1">
                                 <h3>
-                                    <i class="fa fa-graduation-cap"></i>
+                                    <img src="assets/images/icon1.png" class="fa" style="width:28px;">
                                     Pendidikan
                                 </h3>
                                 <ul>
@@ -168,7 +203,7 @@
                         <div class="slideKiri1">
                             <div class="contentKiri1">
                                 <h3>
-                                    <i class="fa fa-suitcase"></i>
+                                    <img src="assets/images/icon2.png" class="fa" style="width:28px;">
                                     Pengalaman Kerja
                                 </h3>
                                 <ul>
@@ -214,7 +249,7 @@
                         <div class="slideKiri1">
                             <div class="contentKiri1">
                                 <h3>
-                                    <i class="fa fa-lightbulb-o"></i>
+                                    <img src="assets/images/icon7.png" class="fa" style="width:28px;">
                                     Pelatihan
                                 </h3>
                                 <ul>
@@ -260,7 +295,7 @@
                         <div class="slideKiri1">
                             <div class="contentKiri1">
                                 <h3>
-                                    <i class="fa fa-line-chart"></i>
+                                    <img src="assets/images/icon3.png" class="fa" style="width: 28px;">
                                     Seminar
                                 </h3>
                                 <ul>
@@ -313,7 +348,7 @@
                             <a href="#" class="btn" type="button"><i class="fa fa-star"></i> Simpan CV Kandidat</a>
                         </div>
                         <div class="slideKanan1">
-                            <h3><i class="glyphicon glyphicon-user"></i> Detail Kandidat</h3>
+                            <h3><img src="assets/images/icon4.png" class="fa" style="width:28px;"> Detail Kandidat</h3>
                             <ul>
                                 <li>
                                     <b><p>Alamat Email</p></b>
@@ -344,7 +379,7 @@
                             </ul>
                         </div>
                         <div class="slideKanan1">
-                            <h3><i class="fa fa-pencil"></i> Detail Kandidat</h3>
+                            <h3><img src="assets/images/icon5.png" class="fa" style="width:28px;"> Skill & Kemampuan</h3>
                             <ul>
                                 <li>
                                     <b><p>Kemampuan Profesional</p></b>
@@ -374,7 +409,7 @@
                             </ul>
                         </div>
                         <div class="slideKanan1">
-                            <h3><i class="fa fa-users"></i> Keanggotaan</h3>
+                            <h3><img src="assets/images/icon6.png" class="fa" style="width:28px;"></i> Keanggotaan</h3>
                             <ul>
                                 <li>
                                     <b><p>Asosiasi Dokter Indonesia</p></b>
@@ -393,9 +428,69 @@
                     </div>
                 </div>
             </div>
-        </div>
-            
         </section>
+      
+    <footer>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3>Hubungi Kami</h3>
+                        <p>Jika Anda memiliki saran, kritik atau pertayaan jangan ragu untuk menghubungi kami.</p>
+                        <form class="Form">
+                            <input type="text" class="formInput" placeholder="Nama">
+                            <input class="formInput" placeholder="Alamat Email">
+                            <input class="textArea" placeholder="Pesanan Anda">
+                            <a href="#" type="button" class="btn">Kirim Pesan</a>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Medis Cerdas</h3>
+                        <ul class="medis">
+                            <li>
+                                <a href="#">Beranda</a>
+                            </li>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Kebijakan Privasi</a></li>
+                            <li><a href="#">Syarat & Ketentuan</a></li>
+                            <li><a href="#">Pasang Lowongan</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Tetap Berhubungan Dengan Kami</h3>
+                        <ul class="sosmed">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        
+                        
+                        <p>Bergabunglah dengan Komunitas Medis Cerdas agar tidak ketinggalan berita dan informasi terbaru seputar tenanga kerja kesehatan</p>
+                        <input type="text" class="formInput2" placeholder="Alamat Email">
+                        <a type="button" class="btn" href="#">
+                        Bergabung
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;">
+                        <p>© Copyright by Medis Cerdas. All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="assets/js/jquery-3.1.0.min.js"></script>
