@@ -7,11 +7,10 @@ Smart Medical is the first career directory site specifically designed for medic
 Not just to help you find a job, but build a solid and long-term career.
 ```
 ## Architecture
-HTML, CSS - Code Igniter
+HTML, CSS 
 
 ## Library Used
-- HTML
-- CSS
+- 
 
 ## Running
 - Clone this repository
